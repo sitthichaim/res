@@ -1,0 +1,6 @@
+[12:00:50 223.24.185.149]  () :delete from M_SALE_ADVERTISING where 1=1 and SA_ID = '8'
+[12:01:18 223.24.185.149]  () :delete from M_SALE_ADVERTISING where 1=1 and SA_ID = '5'
+[12:25:23 223.24.185.149]  () :update M_SALE_ADVERTISING set DATE = '2020-04-28', TIME = '10:00', SALE = '200', ADVERTISE = '100' where 1=1 and SA_ID = '2'
+[14:10:20 223.24.185.149]  () :insert into M_MANUFACTURING (TYPE, AROUND, KINDS, QUANTITY, STIME, ETIME, WASTE, DATE, PRODUCE) values ('', '1', 'แป้งสาลี', '8kg', '10:00', '12:00', '10', '2020-04-28', '')
+[14:38:25 223.24.185.149]  () :update M_MANUFACTURING set TYPE = '1', AROUND = '1', KINDS = 'แป้งสาลี', QUANTITY = '8kg', STIME = '10:00', ETIME = '13:00', WASTE = '10', DATE = '2020-04-28', PRODUCE = NULL where 1=1 and FACTURING_ID = '3'
+[14:38:58 223.24.185.149]  () :delete from M_MANUFACTURING where 1=1 and FACTURING_ID = '3'
